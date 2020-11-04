@@ -1,0 +1,15 @@
+{
+  "name": "apple",
+  "version": "1.0.0",
+  "description": "apple website clone coding",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+    "homepage" : "https://Youngho105.github.io/Apple/",
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  }
+}
